@@ -1,0 +1,50 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>ToDo</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href=".//css/style.css?ver=1.0" />
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8" />
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/101b51eb04.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="todo">
+			<div class="todo__container _container">
+				<h1 class="todo__title title">ToDo List</h1>
+				<div class="todo__insert-task insert-task">
+					<input type="text" id="input" class="insert-task__input" placeholder="add task">
+					<div class="insert-task__button _btn">add</div>
+				</div>
+				<div class="todo__task task">
+					<ul class="task_list">
+						<!-- <li>
+							<input type="checkbox" value="comleted" name="task-checkbox" id="task-checkbox"
+								class="task__input">
+							<label for="task-checkbox"
+								class="task__label"><span>dfhgfghfghgfhgfhgfhgfhfghfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</span></label>
+							<input type="text" id="task-change" class="task__change">
+							<i class="fa-solid fa-pen-to-square task__button-edit"></i>
+							<i class="fa-solid fa-trash-can task__button-trash"></i>
+						</li> -->
+					</ul>
+				</div>
+				<div class="todo__save save">
+					<div class="save__button _btn">save</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script type="text/javascript" src=".//js/script.js?ver=1.1"></script>
+</body>
+
+</html>
